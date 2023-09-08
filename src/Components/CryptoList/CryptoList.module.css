@@ -1,0 +1,8 @@
+.cryptoListDiv>h1{
+  color: #fff;
+}
+.cryptoListDiv{
+  text-align: center;
+  border: 1px solid black;
+  background: #000;
+}
