@@ -1,0 +1,30 @@
+.cryptoCartDiv{
+  border: 1px solid rgb(16, 12, 51);
+  background: rgb(16, 12, 51);
+  color: #fff;
+  text-align: center;
+}
+.cryptoCartDiv>h2{
+text-align:right;
+}
+.cryptoCartListDiv{
+  border: 1px solid rgb(99, 95, 95);
+  background: rgb(77, 122, 40);
+  color: #fff;
+  width: 200px;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 5px;
+  position:relative;
+}
+.cryptoCartListDiv>button{
+position: absolute;
+right: 10px;
+top: 10px;
+border: 0;
+background: transparent;
+font-weight: 600;
+color: #fff;
+font-size: 18px;
+cursor: pointer;
+}
