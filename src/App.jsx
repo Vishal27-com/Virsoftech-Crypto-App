@@ -1,9 +1,12 @@
-import React from 'react'
+import CryptoCart from "./Components/CryptoCart/CryptoCart";
+import CryptoList from "./Components/CryptoList/CryptoList";
+import "./App.css";
 
-const App = () => {
+export default function App() {
   return (
-    <div>App</div>
-  )
+    <div className="App">
+      <CryptoList />
+      <CryptoCart />
+    </div>
+  );
 }
-
-export default App
